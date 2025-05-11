@@ -10,14 +10,13 @@
     // var_dump($uri);
 
     switch ($uri) {
-        case 'prueba':
-        case 'prueba/':
+        case '':
             include 'vista/php/login-bootstrapp.php';
             break;
-        case 'prueba/login':
+        case 'login':
             include 'vista/php/login-bootstrapp.php';
             break;
-        case 'prueba/registro':
+        case 'registro':
             include 'vista/php/registro-bootstrapp.php';
             break;
         default:

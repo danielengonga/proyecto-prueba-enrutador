@@ -1,5 +1,6 @@
-alert("hola mundo");
-document.getElementById("form").addEventListener("submit", (e) => {
-    e.preventDefault();
+import {iniciarSesion} from './controlador/c_login.js';
+
+document.addEventListener('DOMContentLoaded', () => {
+    iniciarSesion();
 
 });
