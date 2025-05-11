@@ -36,7 +36,7 @@
       
                 <!-- Password input -->
                 <div data-mdb-input-init class="form-outline mb-3">
-                  <input type="password" id="contrasena"  class="form-control form-control-lg"
+                  <input type="password" id="contrasena" name="contrasena"  class="form-control form-control-lg"
                     placeholder="Enter password" />
                   <label class="form-label" for="contrasena">Password</label>
                 </div>
